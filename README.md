@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Project Name: Learn New language.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Link: [Verbalizer](https://verbalizer-education.netlify.app/).
 
-## Available Scripts
+## Priject Overview:
 
-In the project directory, you can run:
+Verbalizer is a modern and clean Language Center & Training Courses, Language Schools, Language Courses, Online Courses, Learning Management System, and any kind of Learning & Education websites.
 
-### `npm start`
+### Benefits:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<ul>
+  <li>Several studies have been conducted on this topic, and the results are consistent. Language learning keeps your brain healthy. For monolingual adults, the mean age for the first signs of dementia is 71.4. For adults who speak two or more languages, the mean age for those first signs is 75.5. Studies considered factors such as education level, income level, gender, and physical health, but the results were consistent.</li>
+   <li>According to a study from the University of Chicago, decision-making ability becomes an easier process for multilingual people. Aside from the rules and vocabulary that go with learning a foreign language, there are nuances and regional expressions that a student of language frequently judges for appropriateness and hidden meanings. Multilinguals are more confident in their decision-making choices as a result of practice, practice, practice!</li>
+   <li>Learning a new language makes you more conscious of the nuts and bolts of your own language. Terms such as vocabulary, grammar, conjugation, comprehension, idioms and sentence structure become everyday phrases, whereas your own language is probably absorbed more intuitively. Learning a new language also makes you a better listener as you are used to having to interpret meaning and judge nuances.</li>
+  </ul>
+  
+  ### Conclusion: 
+  Language learning helps develop strong cognitive skills, such as a better concept formation, mental flexibility, multitasking, listening skills and problem-solving, in addition to improving social interaction and encouraging connection between peers. What’s your next language?
