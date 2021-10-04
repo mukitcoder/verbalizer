@@ -64,7 +64,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-md-3 mt-5">
-          <h5 className="mb-3">Stay Connected</h5>
+          <h5 className="mb-5">Stay Connected</h5>
           <hr />
           <div class="input-group mb-3 mt-5 w-75 mx-auto">
             <input
