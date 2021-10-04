@@ -24,7 +24,7 @@ const AboutUs = () => {
         </div>
         <div className="col-md-7 my-auto">
           <h1>Know About Best Online Learning Platform With Verbalize</h1>
-          <p>
+          <p className="text-dark">
             When you think about it, this makes a lot of sense. If you don’t set
             goals, how can you know what you want to achieve and measure whether
             you have achieved it?
@@ -35,11 +35,11 @@ const AboutUs = () => {
               <div className="d-grid p-2">
                 <div className="d-flex">
                   <p className="me-4 text-success"> {laptop} </p>{" "}
-                  <p>Online Tutoring</p>
+                  <p className="text-dark">Online Tutoring</p>
                 </div>
                 <div className="d-flex">
                   <p className="me-4 text-warning"> {book} </p>{" "}
-                  <p>50+ Courses</p>
+                  <p className="text-dark">50+ Courses</p>
                 </div>
               </div>
             </div>
@@ -47,11 +47,11 @@ const AboutUs = () => {
               <div className="d-grid p-2">
                 <div className="d-flex">
                   <p className="me-4 text-info"> {studentIcon} </p>{" "}
-                  <p>Lifetime Access</p>
+                  <p className="text-dark">Lifetime Access</p>
                 </div>
                 <div className="d-flex">
                   <p className="me-4 text-primary"> {studentIcon} </p>{" "}
-                  <p>Activate Learning</p>
+                  <p className="text-dark">Activate Learning</p>
                 </div>
               </div>
             </div>
