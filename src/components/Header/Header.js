@@ -1,26 +1,35 @@
 import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Container, Form, FormControl, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Header.css";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   return (
     <div>
       <Navbar bg="light" expand="lg">
-        <Container fluid>
-          <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Container fluid className="header-container">
+          <img className="img-fluid" src={logo} alt="" />
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
+              className="ms-auto my-2 my-lg-0 "
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
-              <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link>
+              <Link className="header-menu" to="/home">
+                Home
+              </Link>
+              <Link className="header-menu" to="/services">
+                Services
+              </Link>
+              <Link className="header-menu" to="/about">
+                About Us
+              </Link>
+              <Link className="header-menu" to="/contact">
+                Contact
+              </Link>
             </Nav>
             <Form className="d-flex">
               <FormControl
@@ -29,7 +38,12 @@ const Header = () => {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button className="btn btn-outline-success" variant="outline-success">Search</Button>
+              <Button
+                className="btn btn-outline button-style"
+                variant="outline-success"
+              >
+                Search
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Container>
