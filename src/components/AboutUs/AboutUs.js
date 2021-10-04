@@ -79,6 +79,7 @@ const AboutUs = () => {
             world-class learning—anytime, anywhere.
           </p>
         </div>
+        
       </div>
     </div>
   );
