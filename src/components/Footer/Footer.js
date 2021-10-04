@@ -16,7 +16,7 @@ const yt = <FontAwesomeIcon icon={faYoutube} />;
 
 const Footer = () => {
   return (
-    <div className="footer-section text-white text-center">
+    <div className="footer-section text-white text-center mt-2">
       <div className="row">
         <div className="col-md-3">
           <div className="p-4">
