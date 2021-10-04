@@ -9,10 +9,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { ProgressBar } from "react-bootstrap";
 
+// Font Awesome icons
 const studentIcon = <FontAwesomeIcon icon={faUsers} />;
 const book = <FontAwesomeIcon icon={faBookOpen} />;
 const laptop = <FontAwesomeIcon icon={faLaptop} />;
 
+// About us section
 const AboutUs = () => {
   return (
     <div className="container">
@@ -55,6 +57,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            {/* Progress Bar  */}
             <h4>Students Passed: 85%</h4>
             <ProgressBar animated now={85} />
           </div>
@@ -70,16 +73,15 @@ const AboutUs = () => {
             learners around the world. Today, Varbalizer is a global online
             learning platform that offers anyone, anywhere, access to online
             courses and degrees from leading universities and companies.
-            Varbalizer received B Corp certification in February 2021, which means
-            that we have a legal duty not only to our shareholders, but to also
-            make a positive impact on society more broadly, as we continue our
-            efforts to reduce barriers to world-class education for all. 82
+            Varbalizer received B Corp certification in February 2021, which
+            means that we have a legal duty not only to our shareholders, but to
+            also make a positive impact on society more broadly, as we continue
+            our efforts to reduce barriers to world-class education for all. 82
             million learners, 100+ Fortune 500 companies, and more than 6,000
             campuses, businesses, and governments come to Varbalizer to access
             world-class learning—anytime, anywhere.
           </p>
         </div>
-        
       </div>
     </div>
   );

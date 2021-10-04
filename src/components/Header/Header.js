@@ -5,9 +5,12 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../images/logo.png";
 
+
+// header section
 const Header = () => {
   return (
     <div>
+      {/* Navbar  */}
       <Navbar bg="light" expand="lg">
         <Container fluid className="header-container">
           <img className="img-fluid" src={logo} alt="" />

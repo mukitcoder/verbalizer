@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlayCircle } from "@fortawesome/free-regular-svg-icons";
 import { faStar, faUsers } from "@fortawesome/free-solid-svg-icons";
 
-
+// FontAwesome Icons
 const star = <FontAwesomeIcon icon={faStar} />;
 const lessonIcon = <FontAwesomeIcon icon={faPlayCircle} />;
 const studentIcon = <FontAwesomeIcon icon={faUsers} />;
 
 const Services = () => {
     const [courses, setCourses] = useState([]);
-  
+  // Fetch api
     useEffect(() => {
       fetch(`https://mukitcoder.github.io/jsonapi2/fakeDbTwelve.JSON`)
         .then((res) => res.json())
@@ -45,6 +45,7 @@ const Services = () => {
                         {studentIcon} {course.students} Students
                       </div>
                   </div>
+                  {/* Star Icon */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                       <div className="d-flex justify-content-center"> 
                          <p className="me-2">{course.rating}.0 </p>
